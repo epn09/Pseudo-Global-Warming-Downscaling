@@ -1,0 +1,35 @@
+&share
+ wrf_core = 'ARW',
+ max_dom = 2,
+ start_date = '2023-01-01_00:00:00','2023-01-01_00:00:00',
+ end_date   = '2023-01-01_18:00:00','2023-01-01_18:00:00',
+ interval_seconds = 10800
+/
+
+&geogrid
+ parent_id         =   1,   1,
+ parent_grid_ratio =   1,   5,
+ i_parent_start    =   1,  20,
+ j_parent_start    =   1,  20,
+ e_we              =  50, 51,
+ e_sn              =  50, 51,
+ geog_data_res = 'modis_landuse_20class_30s_with_lakes','modis_landuse_20class_30s_with_lakes',
+ dx = 10000,
+ dy = 10000,
+ map_proj = 'lambert',
+ ref_lat   =  35.67,
+ ref_lon   = 139.65,
+ truelat1  =  30.0,
+ truelat2  =  60.0,
+ stand_lon = 139.0,
+ geog_data_path = '../WPS_GEOG/'
+/
+
+&ungrib
+ out_format = 'WPS',
+ prefix = 'ERA5S',
+/
+
+&metgrid
+ fg_name = 'ERA5P', 'ERA5S'
+/
