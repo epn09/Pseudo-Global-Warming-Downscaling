@@ -6,6 +6,7 @@ Script is in Download_CMIP6/
 
  > require intake-esm library
 
+Download_CMIP6/download_pgw.ipynb
 
 ## Create Global Warming Increment (GWI) file
 
