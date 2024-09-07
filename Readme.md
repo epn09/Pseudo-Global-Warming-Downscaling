@@ -1,17 +1,23 @@
 # Pseudo-global-warming downscaling (PGW-DS) program
 
 
-## Step 1: Download CMIP6 GCM monthly data
-need intake-esm 
+## Download CMIP6 GCM monthly data
+Script is in Download_CMIP6/
 
-## Step 2: Create Global Warming Increment (GWI) file
-
-xarray
-
-## Step 3: Create WRF intermediate files from GWI and reanalysis data 
+ > require intake-esm library
 
 
-## Step 4: Test run with WRF
+## Create Global Warming Increment (GWI) file
 
 
+
+## Create WRF intermediate files from GWI and reanalysis data 
+
+
+## Test run with WRF
+
+
+## Data are saved to:
+
+https://drive.google.com/drive/folders/1-DgBXOMXOd7CokSxHDvA2XrcZtOSoWfj?usp=drive_link
 
