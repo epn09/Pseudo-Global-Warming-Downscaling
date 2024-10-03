@@ -1,6 +1,7 @@
 # Copy from https://github.com/coecms/nccompress/blob/master/nccompress/nc2nc.py
 
 import operator
+import sys
 from functools import reduce
 
 import numpy as np
