@@ -1,0 +1,11 @@
+name: dv-pgw
+channels:
+  - defaults
+dependencies:
+  - intake
+  - python=3.12
+  - ipykernel
+  - ipywidgets
+  - intake-esm
+  - requests
+  - aiohttp
