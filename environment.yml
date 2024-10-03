@@ -9,3 +9,6 @@ dependencies:
   - intake-esm
   - requests
   - aiohttp
+  - matplotlib
+  - gcsfs
+  - pre-commit
